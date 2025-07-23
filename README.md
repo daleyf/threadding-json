@@ -32,8 +32,8 @@ python3 test.py med --host http://localhost:8000
 
 ## 4 **Simulate failure & recovery**
 ```bash
-docker stop resolveai-analyzer2-1    # take 30% node offline
-docker start resolveai-analyzer2-1   # it’s back online within 5s
+docker stop threading-json-analyzer2-1    # take 30% node offline
+docker start threading-json-analyzer2-1   # it’s back online within 5s
 ```
 
 
