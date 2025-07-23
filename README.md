@@ -27,13 +27,8 @@ High-throughput test
 ```bash
 python3 test.py med --host http://localhost:8000
 ```
-Clean up outputs
 
-```bash
-clear && rm -rf analyzed-outputs/*
-```
-
-Summarize codebase
+Summarize codebase (Daley's sprinkle of interest)
 ```bash
 python3 summarizer.py "explain the codebase"
 ```
