@@ -1,6 +1,10 @@
-# Run Demo
+## Prereqs
+- Docker & Docker Compose  
+- Python 
+- `pip install -r requirements.txt`  
+- Set `OPENAI_API_KEY` in your env  
 
-1. **Build & start all services**
+**Build & start all services**
    
 ```bash
    docker compose up --build
