@@ -9,7 +9,7 @@
 • Distributor → http://localhost:8000
 • Analyzers → ports 8001, 8002, 8003
 
-Verify weighted routing
+Run: start with **small** but can also use **med**, or add any folder to the *repos* folder
 
 ```bash
 python3 test.py small --host http://localhost:8000
