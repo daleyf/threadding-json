@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ## 1. **Build & start all services**
    
 ```bash
-   docker compose up --build
+docker compose up --build
 ```
 
 
