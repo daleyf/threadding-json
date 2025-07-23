@@ -1,8 +1,14 @@
 # Prereqs
 - Docker & Docker Compose  
 - Python 
-- `pip install -r requirements.txt`  
 - Set `OPENAI_API_KEY` in your env  
+
+## 0. **Setup environment**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## 1. **Build & start all services**
    
