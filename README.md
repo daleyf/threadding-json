@@ -1,6 +1,10 @@
-# Run Demo
+## Prereqs
+- Docker & Docker Compose  
+- Python 
+- `pip install -r requirements.txt`  
+- Set `OPENAI_API_KEY` in your env  
 
-1. **Build & start all services**
+**Build & start all services**
    
 ```bash
    docker compose up --build
@@ -9,7 +13,7 @@
 • Distributor → http://localhost:8000
 • Analyzers → ports 8001, 8002, 8003
 
-Verify weighted routing
+Run: start with **small** but can also use **med**, or add any folder to the *repos* folder
 
 ```bash
 python3 test.py small --host http://localhost:8000
