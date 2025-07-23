@@ -26,8 +26,8 @@ python3 test.py small --host http://localhost:8000
 
 ## 3 **Simulate failure & recovery**
 ```bash
-docker stop resolver_analyzer_2    # take 30% node offline
-docker start resolver_analyzer_2   # it’s back online within 5s
+docker stop resolveai-analyzer2-1    # take 30% node offline
+docker start resolveai-analyzer2-1   # it’s back online within 5s
 ```
 
 ## 4 **High-throughput test**
