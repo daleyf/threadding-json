@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  distributor:
+    build:
+      context: .
+      dockerfile: Dockerfile.distributor
+    ports:
+      - "8000:8000"
+
+  analyzer1:
+    build:
+      context: .
+      dockerfile: Dockerfile.analyzer
+    environment:
+      - THREAD_INDEX=1
+    hostname: analyzer1
+    ports:
+      - "8001:8000"
+
+  analyzer2:
+    build:
+      context: .
+      dockerfile: Dockerfile.analyzer
+    environment:
+      - THREAD_INDEX=2
+    hostname: analyzer2
+    ports:
+      - "8002:8000"
+
+  analyzer3:
+    build:
+      context: .
+      dockerfile: Dockerfile.analyzer
+    environment:
+      - THREAD_INDEX=3
+    hostname: analyzer3
+    ports:
+      - "8003:8000"

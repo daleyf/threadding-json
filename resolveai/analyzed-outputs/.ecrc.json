@@ -1,0 +1,6 @@
+{
+  "agent_id": ".ecrc",
+  "summary": "Overview:\nThe configuration file (.ecrc) specifies exclusion and disable rules:\n- Excludes files matching \"^\\\\.gitmodules$\" and \"stb_image\\\\.h\".\n- Disables the \"IndentSize\" check.\n\nAnomalies:\nNo anomalies detected; configuration appears standard.",
+  "prompt_tokens": 88,
+  "completion_tokens": 56
+}
